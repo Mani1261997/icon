@@ -1,0 +1,25 @@
+@import "node_modules/bootstrap/less/bootstrap.less";
+@import "node_modules/font-awesome/less/font-awesome.less";
+
+#icons1{
+    margin: 4rem;
+    color:#2886C1;
+    text-align:center;
+    font-size: 1.5rem;
+    a{
+        text-decoration: none;
+    }
+      a:hover{
+       color: #124c6d;
+        svg:hover{
+         transition: 0.5s all;
+         transform: scale(1.2);
+       }
+     }
+}
+
+@media (max-width: @screen-md-max)  {
+    #icons1{
+        display: none; 
+    }   
+}
